@@ -1,0 +1,42 @@
+# Binaries and build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+contractor-api
+
+# Environment and local config
+.env
+.env.local
+.env.*
+!.env.example
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/
+
+# Logs
+*.log
+
+# Docker volumes
+postgres_data/
+redis_data/
+
+# Test coverage
+coverage.txt
+coverage.html
+
+# Temporary files
+tmp/
+temp/
