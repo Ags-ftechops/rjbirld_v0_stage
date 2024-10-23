@@ -1,4 +1,4 @@
-# Contractor Management System
+
 
 A secure and scalable backend system for managing contractors, locations, and document workflows.
 
